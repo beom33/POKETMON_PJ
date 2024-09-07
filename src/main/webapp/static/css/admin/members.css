@@ -1,0 +1,93 @@
+/* 내용 영역 S */
+
+main > .main-content {
+    flex-grow: 1;
+    background: #fff;
+    padding: 50px;
+}
+
+main > .main-content h1 {
+    line-height: 1;
+    font-size: 2rem;
+    margin : 10px 0 25px;
+    padding: 0 0 15px;
+    border-bottom: 3px solid #000;
+}
+
+.member_list {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.member_list_table {
+    border-spacing: 0;
+    padding: 0;
+    font-size: 15px;
+}
+
+.member_list_table th {
+    background: #333;
+    color: #fff;
+}
+
+.member_list_table th,
+.member_list_table td {
+    border-bottom: 1px solid #555;
+    padding: 15px;
+}
+
+.pagination {
+    display: flex;
+    margin: 0;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.pagination a.on {
+    background-image: url('../../images/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 1.0;
+    color: var(--yellow);
+}
+
+.delete {
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background: #333;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d1180b;
+}
+
+.member_list_table input[type="checkbox"] {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+
